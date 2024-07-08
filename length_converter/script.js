@@ -5,5 +5,5 @@ function converttoinches(){
     let result=document.getElementById("result");
     let cmformula=2.54;
     let convert=inputcnvt/cmformula;
-    result.innerHTML=convert;
+    result.innerHTML=convert.toFixed(2)+"inches";
 }
